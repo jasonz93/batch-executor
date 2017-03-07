@@ -1,4 +1,8 @@
 # batch-executor
+[![npm](https://img.shields.io/npm/v/batch-executor.svg)](https://npm.taobao.org/package/batch-executor)
+[![Build Status](https://travis-ci.org/jasonz93/batch-executor.svg?branch=master)](https://travis-ci.org/jasonz93/batch-executor)
+[![Coverage Status](https://coveralls.io/repos/github/jasonz93/batch-executor/badge.svg?branch=master)](https://coveralls.io/github/jasonz93/batch-executor?branch=master)
+
 A simple batch executor wrapped by event emitter.
 It emit an `execute` event when it received object more than max count, or reached max interval time.
 
