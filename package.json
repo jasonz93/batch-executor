@@ -1,0 +1,33 @@
+{
+  "name": "batch-executor",
+  "version": "1.0.0",
+  "description": "A simple batch executor",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonz93/batch-executor.git"
+  },
+  "keywords": [
+    "batch"
+  ],
+  "author": "Sihao Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonz93/batch-executor/issues"
+  },
+  "homepage": "https://github.com/jasonz93/batch-executor#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.12.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "arguejs": "^0.2.3",
+    "lodash": "^4.17.4"
+  }
+}
